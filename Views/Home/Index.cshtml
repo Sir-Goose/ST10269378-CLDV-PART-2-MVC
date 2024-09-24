@@ -1,0 +1,111 @@
+﻿@model st10269378.Models.CustomerProfile
+
+<!-- main container for the web application -->
+<div class="container">
+    <!-- title for the web application -->
+    <h1 class="text-center mb-5">ST10269378 - CLDV6211 POE PART 2</h1>
+
+    <!-- row for image upload and customer profile sections -->
+    <div class="row">
+        <!-- column for image upload section -->
+        <div class="col-md-6 mb-4">
+            <!-- card for image upload section -->
+            <div class="card">
+                <!-- card body for image upload section -->
+                <div class="card-body">
+                    <!-- title for image upload section -->
+                    <h5 class="card-title">Upload Image</h5>
+                    <!-- form for uploading image -->
+                    <form asp-action="UploadImage" method="post" enctype="multipart/form-data">
+                        <!-- custom file input for selecting image file -->
+                        <div class="custom-file mb-3">
+                            <input type="file" class="custom-file-input" id="imageUpload" name="file">
+                            <label class="custom-file-label" for="imageUpload">Choose file</label>
+                        </div>
+                        <!-- button to submit image upload form -->
+                        <button type="submit" class="btn btn-primary">Upload Image</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- column for customer profile section -->
+        <div class="col-md-6 mb-4">
+            <!-- card for customer profile section -->
+            <div class="card">
+                <!-- card body for customer profile section -->
+                <div class="card-body">
+                    <!-- title for customer profile section -->
+                    <h5 class="card-title">Add Customer Profile</h5>
+                    <!-- form for adding customer profile -->
+                    <form asp-action="AddCustomerProfile" method="post">
+                        <!-- input field for first name -->
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="FirstName" placeholder="First Name" required>
+                        </div>
+                        <!-- input field for last name -->
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="LastName" placeholder="Last Name" required>
+                        </div>
+                        <!-- input field for email -->
+                        <div class="form-group">
+                            <input type="email" class="form-control" name="Email" placeholder="Email" required>
+                        </div>
+                        <!-- input field for phone number -->
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="PhoneNumber" placeholder="Phone Number" required>
+                        </div>
+                        <!-- button to submit customer profile form -->
+                        <button type="submit" class="btn btn-success">Add Profile</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- row for order processing and contract upload sections -->
+    <div class="row">
+        <!-- column for order processing section -->
+        <div class="col-md-6 mb-4">
+            <!-- card for order processing section -->
+            <div class="card">
+                <!-- card body for order processing section -->
+                <div class="card-body">
+                    <!-- title for order processing section -->
+                    <h5 class="card-title">Process Order</h5>
+                    <!-- form for processing order -->
+                    <form asp-action="ProcessOrder" method="post">
+                        <!-- input field for order ID -->
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="orderId" placeholder="Order ID" required>
+                        </div>
+                        <!-- button to submit order processing form -->
+                        <button type="submit" class="btn btn-warning">Process Order</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- column for contract upload section -->
+        <div class="col-md-6 mb-4">
+            <!-- card for contract upload section -->
+            <div class="card">
+                <!-- card body for contract upload section -->
+                <div class="card-body">
+                    <!-- title for contract upload section -->
+                    <h5 class="card-title">Upload Contract</h5>
+                    <!-- form for uploading contract -->
+                    <form asp-action="UploadFileToAzure" method="post" enctype="multipart/form-data">
+                        <!-- custom file input for selecting contract file -->
+                        <div class="custom-file mb-3">
+                            <input type="file" class="custom-file-input" id="contractUpload" name="file">
+                            <label class="custom-file-label" for="contractUpload">Choose file</label>
+                        </div>
+                        <!-- button to submit contract upload form -->
+                        <button type="submit" class="btn btn-info">Upload Contract</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

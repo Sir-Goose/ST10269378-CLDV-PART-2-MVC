@@ -1,0 +1,116 @@
+/* Global Styles */
+
+body {
+    font-family: 'Tahoma', 'Verdana', sans-serif;
+    background-color: #2F4F4F; /* A dark gray-blue, reminiscent of Windows 95's dark colors */
+    color: #C0C0C0; /* A light gray, for text */
+}
+
+.container {
+    padding-top: 2rem;
+}
+
+/* Typography */
+
+h1 {
+    color: #C0C0C0; /* A deep blue, reminiscent of Windows 95's title bars, but with a darker twist */
+    font-weight: bold;
+    font-size: 24px;
+    text-shadow: 1px 1px #000; /* A subtle text shadow, like the old days */
+}
+
+/* Card Styles */
+
+.card {
+    border: 1px solid #444; /* A dark gray border */
+    border-radius: 5px; /* Not too rounded, just like Windows 95 */
+    background-color: #333; /* A dark gray, like the Windows 95 desktop, but darker */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* A subtle shadow, like the old days */
+    transition: all 0.3s ease;
+}
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);
+    }
+
+.card-title {
+    color: #C0C0C0; /* Same deep blue as the h1 */
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    background-color: #2F4F4F; /* Same dark gray-blue as the body background */
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #444;
+}
+
+/* Form Styles */
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    border-radius: 5px; /* Not too rounded, just like Windows 95 */
+    padding: 0.75rem 1.25rem;
+    background-color: #444; /* A dark gray, like the Windows 95 input fields, but darker */
+    border: 1px solid #333; /* Same dark gray border as the card */
+    color: #C0C0C0; /* Same light gray as the text */
+}
+
+    .form-control:focus {
+        background-color: #333; /* Same dark gray as the card background */
+        border-color: #6495ED; /* Same deep blue as the h1 and card title */
+        box-shadow: 0 0 0 0.2rem rgba(100, 149, 237, 0.25); /* A subtle blue glow, like the old days */
+        color: #C0C0C0; /* Same light gray as the text */
+    }
+
+    .form-control::placeholder {
+        color: #666; /* A dark gray, for placeholder text */
+    }
+
+/* Button Styles */
+
+.btn {
+    border-radius: 5px; /* Not too rounded, just like Windows 95 */
+    padding: 0.5rem 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    background-color: #2F4F4F; /* Same dark gray-blue as the body background */
+    border-color: #C0C0C0; /* Same deep blue as the h1 and card title */
+    color: #C0C0C0; /* Same light gray as the text */
+}
+
+    .btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        background-color: #444; /* A dark gray, like the Windows 95 buttons, but darker */
+        border-color: #6495ED; /* Same deep blue as the h1 and card title */
+    }
+
+/* Custom File Input Styles */
+
+.custom-file-label {
+    border-radius: 5px; /* Not too rounded, just like Windows 95 */
+    padding: 0.75rem 1.25rem;
+    background-color: #444; /* Same dark gray as the input fields */
+    border: 1px solid #333; /* Same dark gray border as the card */
+    color: #C0C0C0; /* Same light gray as the text */
+}
+
+.custom-file-input:lang(en) ~ .custom-file-label::after {
+    content: "Browse";
+    background-color: #2F4F4F; /* Same dark gray-blue as the body background */
+    color: #C0C0C0; /* Same light gray as the text */
+}
+
+/* New styles for better form spacing */
+
+.card-body form > * {
+    margin-bottom: 1rem;
+}
+
+    .card-body form > *:last-child {
+        margin-bottom: 0;
+    }

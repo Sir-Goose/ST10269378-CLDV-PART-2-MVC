@@ -1,0 +1,17 @@
+C:\Users\matth\Desktop\st10269378\obj\Release\net8.0\PubTmp\Out\st10269378.exe
+C:\Users\matth\Desktop\st10269378\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\matth\Desktop\st10269378\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\matth\Desktop\st10269378\obj\Release\net8.0\PubTmp\Out\st10269378.dll
+C:\Users\matth\Desktop\st10269378\obj\Release\net8.0\PubTmp\Out\st10269378.deps.json
+C:\Users\matth\Desktop\st10269378\obj\Release\net8.0\PubTmp\Out\st10269378.runtimeconfig.json
+C:\Users\matth\Desktop\st10269378\obj\Release\net8.0\PubTmp\Out\st10269378.pdb
+C:\Users\matth\Desktop\st10269378\obj\Release\net8.0\PubTmp\Out\Azure.Core.dll
+C:\Users\matth\Desktop\st10269378\obj\Release\net8.0\PubTmp\Out\Azure.Data.Tables.dll
+C:\Users\matth\Desktop\st10269378\obj\Release\net8.0\PubTmp\Out\Azure.Storage.Blobs.dll
+C:\Users\matth\Desktop\st10269378\obj\Release\net8.0\PubTmp\Out\Azure.Storage.Common.dll
+C:\Users\matth\Desktop\st10269378\obj\Release\net8.0\PubTmp\Out\Azure.Storage.Files.Shares.dll
+C:\Users\matth\Desktop\st10269378\obj\Release\net8.0\PubTmp\Out\Azure.Storage.Queues.dll
+C:\Users\matth\Desktop\st10269378\obj\Release\net8.0\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\matth\Desktop\st10269378\obj\Release\net8.0\PubTmp\Out\System.ClientModel.dll
+C:\Users\matth\Desktop\st10269378\obj\Release\net8.0\PubTmp\Out\System.IO.Hashing.dll
+C:\Users\matth\Desktop\st10269378\obj\Release\net8.0\PubTmp\Out\System.Memory.Data.dll
